@@ -1,4 +1,4 @@
-import { getPool, isInTransaction } from '../connection';
+import { getPool } from '../connection';
 import { QueryResult } from '../types';
 
 export async function query(sql: string, params?: any[]): Promise<QueryResult> {
